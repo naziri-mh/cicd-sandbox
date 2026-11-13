@@ -17,4 +17,9 @@ class CalculatorTest {
     void subtractReturnsDifference() {
         assertEquals(1, calculator.subtract(3, 2));
     }
+
+    @Test
+    void multiplyReturnsProduct() {
+        assertEquals(6, calculator.multiply(2, 3));
+    }
 }
